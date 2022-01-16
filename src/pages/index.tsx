@@ -1,11 +1,13 @@
 import { GetServerSideProps } from "next"
-import { allProducts, product } from "../services/Product"
-import { HomeProps, Product } from "../typings/product"
+import { Header } from "../components/Header"
+import { allProducts } from "../services/Product"
+import { HomeProps } from "../typings/product"
 
 export default function Home({ products }: HomeProps) {
 
   return (
     <>
+      <Header />
       {
         products.map(product => (
           <h1 key={product.node.id}>{product.node.title}</h1>

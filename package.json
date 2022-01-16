@@ -9,17 +9,22 @@
   },
   "dependencies": {
     "@apollo/client": "^3.5.6",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
     "@shopify/shopify-api": "^2.0.0",
     "graphql": "^16.2.0",
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "shopify-buy": "^2.14.0"
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "@types/react": "^17.0.38",
-    "eslint": "8.6.0",
-    "eslint-config-next": "12.0.7",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   }
 }
