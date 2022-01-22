@@ -1,13 +1,13 @@
 import styled from '@emotion/styled'
 
 export const Container = styled.div`
-    max-width: 1177px;
-    height: 78px;
-    margin: 0 auto;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    height: 78px;
+    max-width: 1177px;
+    margin: 0 auto;
 
     ul {
         display: flex;
@@ -16,6 +16,7 @@ export const Container = styled.div`
         flex-direction: row;
 
         li {
+            cursor: pointer;
             padding-left: 35px;
             padding-right: 35px;
             list-style: none;
@@ -28,6 +29,7 @@ export const Container = styled.div`
 
 export const LinkActive = styled.a`
     color: #FB2E86;
+    cursor: pointer;
     padding-left: 35px;
     padding-right: 35px;
     list-style: none;

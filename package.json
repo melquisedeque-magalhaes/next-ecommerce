@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@apollo/client": "^3.5.6",
+    "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@shopify/shopify-api": "^2.0.0",

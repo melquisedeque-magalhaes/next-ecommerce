@@ -1,17 +1,24 @@
-import styled from '@emotion/styled'
 import { Colors } from './theme'
+import { Global, css } from '@emotion/react'
 
-export const GlobalStyles = styled.div`
+export function GlobalStyles() {
+    return (
+        <Global styles={globalStyle} />
+    )
+}
+    
+const globalStyle = css`
     * {
-        padding: 0;
-        margin: 0;
         box-sizing: border-box;
     }
 
     body {
         background-color: ${Colors.light.BACKGROUND};
-        color: ${Colors.light.TEXT};
+        color: ${Colors.light.BACKGROUND};
         -webkit-font-smoothing: antialiased;
+
+        padding: 0px !important;
+        margin: 0px !important;
     }
 
     body, input, button {
